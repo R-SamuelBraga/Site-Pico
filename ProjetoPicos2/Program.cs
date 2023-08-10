@@ -4,7 +4,7 @@ using ProjetoPicos2.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<PicoContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("StandartConnection")));
+options.UseSqlServer("Server=localhost\\sqlexpress; Initial Catalog=PicoDB2; Integrated Security=True;TrustServerCertificate=True;"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

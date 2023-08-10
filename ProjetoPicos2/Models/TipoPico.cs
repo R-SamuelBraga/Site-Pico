@@ -14,6 +14,6 @@
         Corrimão,
         Funbox,
         Rampa,
-        Gap
+        Gap,
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace ProjetoPicos2.Models
+﻿using ProjetoPicos2.Models;
+
+namespace ProjetoPicos2.Models
 {
     public class Pico
     {
@@ -12,5 +14,7 @@
         public string Localization { get; set; }
         //Weather Api 
         public bool Active { get; set; }
+
+
     }
 }
